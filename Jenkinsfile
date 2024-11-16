@@ -9,7 +9,7 @@ pipeline {
     stages {
         stage('git checkout') {
             steps {
-                git branch: 'feature-1', url: 'https://github.com/ssp-K8s/Petclinic.git'
+                git branch: 'feature-2', url: 'https://github.com/ssp-K8s/Petclinic.git'
             }
         }
         stage('maven compile') {
